@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- esse rascunho foi feito pra rabiscar
+o que quiser -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ícone/favicon.ico" type="image/x-icon">
+    <!-- o arquivo .ico é arquivo de ícone de site -->
+    <title>Morda a Borda - Rascunho</title>
+    <style>
+        body {
+            background-color: beige;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <h2>Primeiros Testes</h2>
+    <p>Teste de parágrafo</p>
+    <p>Teste de <br> quebra de parágrafo</p>
+    <!-- o br quebra parágrafo -->
+    <!-- &lt; less than / menor que 
+         &gt; greater than / maior que -->
+
+    <!-- o hr adiciona meio que uma linha de divisão -->
+    <p>Símbolos especiais:
+        &reg; <!-- marca registrada -->
+        &copy; <!-- copyright -->
+        &trade; <!-- trademark / TM -->
+        &dollar;
+        <br> R&dollar; <!-- real brasileiro --> <br>
+        &delta; <!-- delta minúsculo -->
+        &Delta; <!-- delta maiúsculo (o triangulo) -->
+        <!-- o & lhe fornece vários símbolos -->
+    </p>
+
+    <!-- emojipedia.com | site de todos os emojis -->
+    <p>Emojis:
+        &#x1F34F; <!-- maçã verde -->
+        &#x1F34E; <!-- maçã vermelha -->
+    </p>
+    
+    <p>Imagens:
+        <!-- sites para pesquisar imagens:
+        images.google.com
+        unsplash
+        pexels 
+        gimp (software/programa) 
+        formato .jpeg - melhor formato com compactação -->
+
+        <!-- é importante diminuir o dimensionamento de imagens -->
+    </p>
+    <P>Testando upload de imagens</P>
+    <img src="imagens/logo principal-200.jpg" alt="">
+    <!-- redimensionamento de 200 é uma ideia boa -->
+    <p>Teste de títulos:</p>
+    <h1>Título de nível 1</h1>
+    <p>Parágrafo 1</p>
+    <h2>Título de nível 2</h2>
+    <p>Parágrafo 2</p>
+    <h3>Título de nível 3</h3>
+    <p>Parágrafo 3</p>
+    <!-- você só pode colocar até 6 níveis em um html -->
+    <!-- é somente h1 até h6 -->
+
+    <!-- semântica: 
+    significado das palavras 
+    significado dos vocábulos -->
+    <!-- recursos antigos non-conforming (não deve usar):
+    basefont
+    big
+    blink
+    center
+    font
+    marquee
+    multicol
+    nobr
+    spacer
+    tt
+
+    para mais informações, pesquisar "html5 obsolete tags".
+    -->
+    <p>Principais formatações:</p>
+    <p>termo em <b>negrito</b> se escreve com &lt;b&gt;</p>
+    <p>termo em <strong>destaque</strong> usando &lt;strong&gt;</p>
+    <p>termo em <i>itálico</i> usando &lt;i&gt;</p>
+    <p>termo em <em>ênfase</em> usando &lt;EM&gt;</p>
+    <!-- Parte forte da frase: strong; parte com ênfase: EM -->
+
+    <p>texto marcado:</p>
+    <p>um texto <mark>marcado</mark></p>
+    <p>um texto <mark style="background-color:coral">marcado</mark></p>
+    <p>um texto <mark style="background-color: rgb(100, 51, 9);">marcado com rgb</mark></p>
+    <!-- o style vem do css -->
+    <!-- rgb: rr, gg, bb -->
+
+    <p>textos grandes e pequenos</p>
+    <p>exemplo de <big>texto grande</big></p>
+    <p>exemplo de <small>texto pequeno</small></p>
+    <!-- você já sabe que o termo big é obsoleto, não pode mais ser utilizado. 
+    a relação dos tamanhos dos textos vão ser editados e ditos através do CSS. -->
+
+    <p>textos deletados e inseridos</p>
+    <p>exemplo de <del>texto deletado/excluído</del></p>
+    <p>exemplo de <ins>texto inserido</ins></p>
+    <p>outro exemplo de <u>texto inserido/sublinhado</u> e não semântico</p>
+
+    <p>texto sobrescrito</p>
+    <p>exemplo de texto <sup>sobrescrito</sup></p>
+    <p>exemplo de texto <sub>subsescrito</sub></p>
+
+    <p>abreviação</p>
+    <p>exemplo de texto com <abbr title="significado">sentido</abbr></P>
+
+    <p>trabalhando com listas</p>
+    <p>listas ordenadas</p>
+    <ol>
+        <li>Pesquisar região norte</li>
+        <li>pesquisar região nordeste</li>
+        <li>pesquisar centro-oeste</li>
+        <!-- ol: order list; li: list item; -->
+    </ol>
+    <ol type="1" start="4">
+        <!-- type é tipo de lista. start é pelo que você quer começar tal lista -->
+        <li>pesquisar região sul</li>
+        <li>pesquisar região sudeste</li>
+        <!-- I - Números romanos 
+             i - números romanos minúsculos
+             1 - lista numérica 
+             A - lista alfabética 
+             a - lista alfabética minúscula 
+            -->
+    </ol>
+
+    <p>listas não ordenadas</p>
+    <!-- não tem ordem -->
+    <ul type="disk">
+        <li>pesquisar região sul</li>
+        <li>pesquisar região nordeste</li>
+        <li>pesquisar região norte</li>
+    </ul>
+
+    <p>junção entre listas 1.0</p>
+    <p>favorite bp songs</p>
+    <ol>
+        <li>from Born Pink:
+            <ol type="I">
+                <li>Pink Venom</li>
+                <li>Typa Girl</li>
+                <li>Ready For Love</li>
+                <li>Tally</li>
+            </ol>
+        <li>from The Album:</LI>
+            <ol type="I" start="5">
+                <li>How You Like That</li>
+                <li>Bet You Wanna</li>
+                <li>Pretty Savage</li>
+                <li>Love to Hate Me</li>
+            </ol>
+    </ol>
+
+    <p>my favorite twice songs</p>
+    <ol>
+        <li>Likey</li>
+        <li>Love Foolish</li>
+        <li>Scandal</li>
+    </ol>
+
+    <p>lista de definição:</p>
+    <dl>
+        <dt>Termo</dt>
+        <dd>descrição</dd>
+    </dl>
+    <!-- dl: definition list; dt: definition term; dd: definition description; -->
+
+    <p>trabalhando com links</p>
+    <p>links externos:</p>
+    <p>Região Norte:
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Quasi blanditiis, omnis fuga, inventore voluptate possimus 
+        quos officiis ea saepe temporibus eos culpa corporis quas 
+        sint dolorum laudantium quod esse quisquam.
+        <a href="https://www.sazon.com.br">Referência</a>
+    </p>
+
+    <p>Região Sul:
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Sequi sed laborum voluptas. Animi corporis nisi enim cumque 
+        eligendi voluptatem eum dolores minima? Asperiores ipsam 
+        dicta consectetur facere inventore corporis alias!
+        <a href="https://www.sazon.com.br" target="_blank" rel="external">Referência</a>
+        <!-- com o target blank e o rel external, abre o site externamente e mantém a página aberta -->
+    </p>
+
+    <p>links internos</p>
+    <p>Acesse mais informações sobre a nossa equipe, <a href="MAB (Rascunho) - Página 2.html" rel="next">clique aqui</a>.</p>
+
+    <p>downloads:</p>
+    <ol>
+        <li><a href="Região Nordeste - Alex.pdf" download="Região Nordeste - Alex.pdf" type="application/pdf" target="_blank" rel="external">Download do PDF da Região sul</a></li>
+    </ol>
+
+    <h1 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">CSS - Cascading Style Sheets</h1>
+    <!-- novamente, tudo que é em vermelho, é termo obsoleto.-->
+    <!-- o font-family é a família do texto, e o text-align center te permite alinhar ao centro -->
+    <p style="color:brown; font-size: 15px;">teste de texto</p>
+    <p style="font-family: 'Times New Roman', Times, serif;">teste de texto</p>
+    <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif">teste de texto</p>
+    <p>teste de texto</p>
+    <style>
+    </style>
+    <!-- o style 'separado' ajuda você a organizar seu site -->
+    <!-- dentro do body, você não irá precisar dos <>, você pode escrever os termos, 
+    sem se preocupar (body, h1, h2, p, etc) -->
+    <!-- uma desvantagem é que o style separado pode ser muito
+    grande, deixando o conteúdo lá embaixo  -->
+    <p></p>
+    <link rel="stylesheet" href="style.css">
+    <!-- é um css externo -->
+    <!-- -->
+
+        <p style="background-color: rgb(74, 185, 83); color: black;">cores em css</p>
+        <!-- Representação por códigos hexadecimais: 
+        Decimal: 0 1 2 3 4 5 6 7 8 9
+        Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F-->
+</body>
+</html>
